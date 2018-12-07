@@ -12,10 +12,6 @@ module.exports = (Sequelize, config) => {
             host: 'localhost',
             dialect: 'sqlite',
             storage: './tracking',
-            define: {
-                timestamps: true,
-                paranoid: true
-            },
             "logging": false
         });
 
